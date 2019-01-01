@@ -16,7 +16,7 @@ public class Instagramgetter : MonoBehaviour
     // Start is called before the first frame update
     IEnumerator Start()
     {
-        string url = "https://api.instagram.com/v1/users/self/media/recent/?access_token=4355211949.0a435af.1e6998d744b04b7cadef566bc5a772d4";
+        string url = "https://api.instagram.com/v1/users/self/media/recent/?access_token=";
 
         // The above has been depricated
         WWW www = new WWW(url);
